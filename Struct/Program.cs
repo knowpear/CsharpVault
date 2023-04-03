@@ -33,7 +33,7 @@ namespace Struct
         }
         static void Main(string[] args)
         {
-            //不適用結構體
+            //不使用結構體
             /*
             int student1Age = 10;
             string student1Name = "siki";
