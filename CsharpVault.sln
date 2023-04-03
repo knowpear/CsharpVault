@@ -37,13 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function Recursion Factoria
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function Recursion Practice", "Function Recursion Practice\Function Recursion Practice.csproj", "{F0120B57-67C5-43DD-993E-BD7B7B384B2C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable enum", "Variable enum\Variable enum.csproj", "{318A90D6-E811-4FCC-806B-EF85084B61A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csproj", "{51AC54A3-87FE-471A-A26F-4EE8D2C5513E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{51AC54A3-87FE-471A-A26F-4EE8D2C5513E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "struct funtion", "struct funtion\struct funtion.csproj", "{EAFFE102-3396-459B-9DCA-729C909CEB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct funtion", "struct funtion\struct funtion.csproj", "{EAFFE102-3396-459B-9DCA-729C909CEB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegate", "delegate\delegate.csproj", "{91FAD8F2-07F0-45BC-ADE5-1C162E9687E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegate", "delegate\delegate.csproj", "{91FAD8F2-07F0-45BC-ADE5-1C162E9687E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegate instance", "delegate instance\delegate instance.csproj", "{DCD43D64-CD6E-4DE1-805E-550836AD560B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum", "enum\enum.csproj", "{B4C357F7-B744-4C02-ACFC-0F2D88AF2ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,10 +121,6 @@ Global
 		{F0120B57-67C5-43DD-993E-BD7B7B384B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0120B57-67C5-43DD-993E-BD7B7B384B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0120B57-67C5-43DD-993E-BD7B7B384B2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{318A90D6-E811-4FCC-806B-EF85084B61A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{318A90D6-E811-4FCC-806B-EF85084B61A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{318A90D6-E811-4FCC-806B-EF85084B61A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{318A90D6-E811-4FCC-806B-EF85084B61A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51AC54A3-87FE-471A-A26F-4EE8D2C5513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51AC54A3-87FE-471A-A26F-4EE8D2C5513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51AC54A3-87FE-471A-A26F-4EE8D2C5513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -135,6 +133,14 @@ Global
 		{91FAD8F2-07F0-45BC-ADE5-1C162E9687E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91FAD8F2-07F0-45BC-ADE5-1C162E9687E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91FAD8F2-07F0-45BC-ADE5-1C162E9687E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD43D64-CD6E-4DE1-805E-550836AD560B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD43D64-CD6E-4DE1-805E-550836AD560B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD43D64-CD6E-4DE1-805E-550836AD560B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD43D64-CD6E-4DE1-805E-550836AD560B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C357F7-B744-4C02-ACFC-0F2D88AF2ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C357F7-B744-4C02-ACFC-0F2D88AF2ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C357F7-B744-4C02-ACFC-0F2D88AF2ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C357F7-B744-4C02-ACFC-0F2D88AF2ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
