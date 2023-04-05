@@ -56,33 +56,6 @@ int age3 = 10, age4 = 12; //同類型簡潔寫法
 - 強制類型轉換
 	- e.g.`(char)Variable`
 
-#### ASCII
-- [ASCII图片_百度百科](https://baike.baidu.com/pic/ASCII/309296/1/e850352ac65c103880a07b53bc119313b17e8941?fr=lemma&ct=single#aid=1&pic=e850352ac65c103880a07b53bc119313b17e8941)
-*/
-
-//#### 查詢ASCII
-char n;
-int nASCII;
-Console.WriteLine("請輸入一個字符");
-n = Convert.ToChar(Console.ReadLine()); //Console.ReadLine是string類型, 這裡轉換為char
-nASCII = (int)n; //再把char強制轉換為int, 以獲得ASCII碼
-//nASCII = Convert.ToInt32(n); 此寫法等價
-Console.WriteLine("{0}的ASCII是: {1}", n, nASCII);
-
-//#### 字符變ASCII碼 方法即char強塞給int 或 char強制轉換為int
-char a = 'c';
-int b = a; //char字符類型也是整數形式存儲的, 字符類型可以當做整數類型使用, 見ASCII. 所以左右類型一致(整數型), 才可以賦值
-//int b= Convert.ToInt32(a); 等同於上句
-Console.WriteLine(a);
-Console.WriteLine(b);
-
-//ASCII碼變字符 方法即int強塞給char 或 int強制轉換為char
-int d = 97;
-//char e = d; 報錯, 大容器int 不能賦值給小容器char
-char e = (char)d; //強塞, 強制類型轉換
-//char e = Convert.ToChar(d); 等同於上句
-Console.WriteLine(e);
-
 //#### 常量
 //習慣上用大寫
 const double PI = 3.1415926;

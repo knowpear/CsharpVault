@@ -1,9 +1,9 @@
 ﻿namespace delegate_instance
 {
-    internal class Program
+    internal class 委託實例
     {
         delegate void OnDieDelegate();
-        static void Play(OnDieDelegate onDie)
+        static void Play(OnDieDelegate onDie) //we.這裡委託函數參數是佔位作用, 橋
         {
             Console.WriteLine("做任务");
             Console.WriteLine("玩家正在战斗");

@@ -15,7 +15,7 @@ we.委託就是將多個同規律函數抽象, 再賦值給一個變量概念, �
  */
 namespace _delegate;
 
-internal class Program
+internal class 委託
 {
     //示例類型1 有返回值有參數
     static double Multiply(double param1, double param2)//函数体
@@ -44,7 +44,7 @@ internal class Program
         //Console.WriteLine(Multiply(2.3, 2));
         //Console.WriteLine(Divide(4.5, 3));
 
-        //委託方法調用示例1
+        //委託方法調用示例1.1 we.分開寫, 先聲明再賦值(函數)
         MyDelegate1 delegate1;
 
         delegate1 = Multiply;
@@ -53,9 +53,14 @@ internal class Program
         delegate1 = Divide;
         Console.WriteLine(delegate1(4,2)); //Result: 2
 
-        //委託方法調用示例2
+        
+        //委託方法調用示例1.2
         MyDelegate2 delegate2;
         delegate2 = Test;
         delegate2(); //Result: Test
+
+        //委託方法調用示例2 we.連起來寫
+        MyDelegate1 delegate3 = new MyDelegate1(Divide);
+        Console.WriteLine(delegate3(6, 2)); //Result: 3
     }
 }
