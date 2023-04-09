@@ -20,7 +20,7 @@ namespace ASCII
             int d = 97;
             //char e = d; 報錯, 大容器int 不能賦值給小容器char
             //int d容器大, char e容器小, 這裡int d只能強塞給char e
-            char e = (char)d; //強塞, 強制類型轉換. 
+            char e = (char)d; //強塞, 強制類型轉換. 轉換成char才能輸出為字符we.這是廢話..
             //char e = Convert.ToChar(d); 等同於上句
             Console.WriteLine(e);
 
@@ -43,7 +43,7 @@ namespace ASCII
             {
                 Console.WriteLine("您輸入的不是字母也不是數字");
             }
-            int asciiNum = (int)input;
+            int asciiNum = (int)input; //(int)is redundant
             Console.WriteLine("對應的ASCII是" + asciiNum);
         }
     }

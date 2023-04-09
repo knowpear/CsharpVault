@@ -6,7 +6,7 @@
 */
 namespace struct_funtion
 {
-    internal class Program
+    internal class 結構體內的函數
     {
         //傳統定義方法
         struct Position
