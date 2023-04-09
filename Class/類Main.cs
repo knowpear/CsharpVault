@@ -54,7 +54,6 @@ namespace Class
             //lisi1.Show();
             //Customer lisi2 = new Customer();
             //Customer lisi3 = new Customer();
-
             Customer zhangsan = new Customer("张三", "三里屯", 20, "2021年");
             zhangsan.Show();
 

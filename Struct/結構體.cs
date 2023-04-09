@@ -15,7 +15,7 @@ struct <name>
  */
 namespace Struct
 {
-    internal class Program
+    internal class 結構體
     {
         struct StudentInfo
         {

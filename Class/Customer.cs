@@ -11,18 +11,25 @@ namespace Class
         public string address;
         private int age;
         public string createTime;
-        
-        //public Customer() {
-        //    Console.WriteLine("我是构造函数");
-        //}
 
+        public Customer()
+        {
+            Console.WriteLine("我是构造函数");
+        }
+
+        //we.帶參數是為了構造時就完成初始化賦值
         public Customer(string name,string address, int age, string createTime)
         {
+            //這種方法不能見名知義
             //name = arg1;
             //address = arg2;
             //age = arg3;
             //createTime = arg4;
-            this.name = name;
+
+            //參數名和成員名重名的賦值方法
+            this.name = name; 
+                //this是一個特殊的類, 就是指當前類
+                //this.name指的就是該類的name成員, 等號右邊的name就是該構造函數的參數name, 因為離它最近
             this.address = address;
             this.age = age;
             this.createTime = createTime;
