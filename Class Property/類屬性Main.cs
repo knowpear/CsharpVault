@@ -28,6 +28,12 @@
             Console.WriteLine(zhaoliu.Address); //Result: 家裡蹲
 
             zhaoliu.show(); //Result: 趙六 /n/r 家裡蹲
+
+            //we初始化函數和屬性調用
+            weClass qianba = new weClass("錢八", 74);
+            Console.WriteLine(qianba.name);
+            //Console.WriteLine(qianba.age); //私有無法訪問
+            qianba.weoutput();
         }
     }
 }

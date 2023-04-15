@@ -55,7 +55,9 @@ namespace Class
             //Customer lisi2 = new Customer();
             //Customer lisi3 = new Customer();
             Customer zhangsan = new Customer("张三", "三里屯", 20, "2021年");
+            zhangsan.setAge(22); //這裡可以改變初始化賦值
             zhangsan.Show();
+            //Customer[] zhangs = new Customer[2]  {zhangsan, zhangsan } ; //we.attempt
 
         }
     }

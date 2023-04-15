@@ -34,6 +34,16 @@
             while (Console.ReadKey(false).Key != ConsoleKey.Enter) { }
             //ReadKey(false) to display the pressed key. Default true: to not display
             Console.WriteLine("已經按下Enter, 第二次退出");
+
+            //另一種寫法
+            //while (true)
+            //{
+            //    ConsoleKeyInfo c = Console.ReadKey(false);
+            //    if (c.Key == ConsoleKey.Enter)
+            //    {
+            //        break;
+            //    }
+            //}
         }
     }
 }

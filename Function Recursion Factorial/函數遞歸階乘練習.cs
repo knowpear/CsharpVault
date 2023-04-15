@@ -1,5 +1,6 @@
 ﻿//#### 求n!  和 求 1!+2!+..n!
 //- [we階乘循環思路](https://we-1307938470.cos.ap-beijing.myqcloud.com/pictures/Csharpjiechengxunhuanwesilu.png)
+//金字塔式理解, 先向下發散出無數分支計算公式, 遇到為1即可確定值時逐層倒退, 匯總結果
 
 namespace Function_Recursion_Factorial
 {
