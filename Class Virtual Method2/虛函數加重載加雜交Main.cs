@@ -2,7 +2,7 @@
 
 namespace Class_Virtual_Method
 {
-    class 虛函數加重載Main
+    class 虛函數加重載加雜交Main
     {
         static void Main(string[] args)
         {
@@ -19,7 +19,7 @@ namespace Class_Virtual_Method
 
             //創建一個雜交實例
                 //we.雜交對應的父類和子類重寫形式
-                    //父類private
+                    //父類virtual
                     //子類override
             SCHOOL sg;
             sg = new GRADE("zhangsan", 80);
