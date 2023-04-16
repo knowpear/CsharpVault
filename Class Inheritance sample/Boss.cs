@@ -7,7 +7,7 @@ namespace Inherit_sample
 
         //we.建立一個構造體初始化賦值函數
         public Boss(int hp, int speed, int attack)
-            //RC.Quick Actions and Refactorings...- Generate constructor...- attack
+        //RC.Quick Actions and Refactorings...- Generate constructor...- attack
         {
             //hp = hp; //這樣不行, 因為左邊會直接訪問最近的hp變量, 即它的參數. 所以要用this即當前對象
                 //this的作用:1.提示該函數中成員變量有哪些 2.區分要訪問的是成員變量還是參數

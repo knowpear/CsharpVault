@@ -21,6 +21,7 @@ namespace Class_Virtual_Method
                 //we.雜交對應的父類和子類重寫形式
                     //父類virtual
                     //子類override
+                    //Notice: 只有此情況, 才能實現virtual method雜交重寫生效
             SCHOOL sg;
             sg = new GRADE("zhangsan", 80);
             sg.Meeting(); // Output: GRADE meeting

@@ -17,7 +17,7 @@ namespace Class_Virtual_Method
             Age = age;
         }
 
-        public virtual void Meeting()
+        public virtual void Meeting() //虛方法
         {
             Console.WriteLine("SCHOOL meeting");
         }

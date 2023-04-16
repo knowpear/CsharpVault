@@ -41,6 +41,7 @@ namespace Class_Virtual_Method
             SCHOOL sg;
             sg = new GRADE("zhangsan", 80);
             sg.Meeting(); // Output: SCHOOL meeting
+
         }
     }
 }

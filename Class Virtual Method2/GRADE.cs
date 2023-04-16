@@ -9,7 +9,7 @@ namespace Class_Virtual_Method
     class GRADE : SCHOOL
     {
         public GRADE(string name, int age) : base(name, age) { }
-        public override void Meeting()
+        public override void Meeting() //重載方法
         {
             Console.WriteLine("GRADE meeting");
         }
