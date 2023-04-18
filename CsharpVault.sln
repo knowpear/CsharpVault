@@ -75,9 +75,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Inheritance", "Class 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class inheritance sample", "Class Inheritance sample\Class inheritance sample.csproj", "{7A6B9A25-27E5-4D63-AF10-BA7F80B5A2FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Hidden Method", "Class Hidden Method\Class Hidden Method.csproj", "{C4424162-0858-4BBA-9F10-DC8ABB9965EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Hidden Method", "Class Hidden Method\Class Hidden Method.csproj", "{C4424162-0858-4BBA-9F10-DC8ABB9965EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Derived Class", "Class Derived Class\Class Derived Class.csproj", "{E7B6E832-EDD5-43C4-AA8B-4BD6F287BEF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Derived Class", "Class Derived Class\Class Derived Class.csproj", "{E7B6E832-EDD5-43C4-AA8B-4BD6F287BEF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Abstract", "Class Abstract\Class Abstract.csproj", "{0071C3DC-6225-45D5-A3F9-6148BEAD8890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modifier Static", "Modifier Static\Modifier Static.csproj", "{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +241,14 @@ Global
 		{E7B6E832-EDD5-43C4-AA8B-4BD6F287BEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B6E832-EDD5-43C4-AA8B-4BD6F287BEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B6E832-EDD5-43C4-AA8B-4BD6F287BEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
