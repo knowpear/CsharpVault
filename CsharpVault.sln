@@ -87,6 +87,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Interface", "Class In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Indexer", "Class Indexer\Class Indexer.csproj", "{B37411BA-CC8D-4A94-A05D-40DE0416E00D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Operator Overloading", "Class Operator Overloading\Class Operator Overloading.csproj", "{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{B37411BA-CC8D-4A94-A05D-40DE0416E00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37411BA-CC8D-4A94-A05D-40DE0416E00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37411BA-CC8D-4A94-A05D-40DE0416E00D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

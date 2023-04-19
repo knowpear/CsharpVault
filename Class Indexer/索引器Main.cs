@@ -1,5 +1,6 @@
-﻿using _14_索引器;
-
+﻿//#### Indexer索引器
+//- 相當於數組被一個類管理了
+//-任何使用索引器的地方都可以使用函數代替
 namespace Class_Indexer
 {
     internal class 索引器Main

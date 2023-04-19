@@ -1,4 +1,4 @@
-﻿namespace _14_索引器
+﻿namespace Class_Indexer
 {
     class Week
     {
@@ -20,9 +20,9 @@
         {
             get
             {
-                return GetDay(day); //we.相當於把string day傳遞給day? 意義在於觀感更有條理
+                return GetDay(day); //we.相當於把string day傳遞給day? 意義在於更簡捷, 方便閱讀
+                    //這裡索引器相當於簡捷調用這個方法
             }
         }
-
     }
 }
