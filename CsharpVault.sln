@@ -85,9 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modifier Static", "Modifier
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Interface", "Class Interface\Class Interface.csproj", "{386AEAA8-0810-41AA-8EB2-251BC83F8BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Indexer", "Class Indexer\Class Indexer.csproj", "{B37411BA-CC8D-4A94-A05D-40DE0416E00D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Indexer", "Class Indexer\Class Indexer.csproj", "{B37411BA-CC8D-4A94-A05D-40DE0416E00D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Operator Overloading", "Class Operator Overloading\Class Operator Overloading.csproj", "{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Operator Overloading", "Class Operator Overloading\Class Operator Overloading.csproj", "{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct & Class diff", "Struct & Class diff\Struct & Class diff.csproj", "{46F17E05-71F3-4667-A344-A10EF8447319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F17E05-71F3-4667-A344-A10EF8447319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F17E05-71F3-4667-A344-A10EF8447319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F17E05-71F3-4667-A344-A10EF8447319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F17E05-71F3-4667-A344-A10EF8447319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
