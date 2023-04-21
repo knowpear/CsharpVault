@@ -15,9 +15,9 @@
 - 無法繼承
 - 用途: 一般數據只存一份兒的放到靜態類中
  */
-namespace Modifier_Static
+namespace Class_Modifier_Static
 {
-    internal class 修飾詞靜態Main
+    internal class 類修飾詞靜態Main
     {
         static void Main(string[] args)
         {

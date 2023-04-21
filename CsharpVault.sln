@@ -81,15 +81,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Derived Class", "Clas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Abstract", "Class Abstract\Class Abstract.csproj", "{0071C3DC-6225-45D5-A3F9-6148BEAD8890}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modifier Static", "Modifier Static\Modifier Static.csproj", "{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Interface", "Class Interface\Class Interface.csproj", "{386AEAA8-0810-41AA-8EB2-251BC83F8BD7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Indexer", "Class Indexer\Class Indexer.csproj", "{B37411BA-CC8D-4A94-A05D-40DE0416E00D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Operator Overloading", "Class Operator Overloading\Class Operator Overloading.csproj", "{74BAEDEA-24CF-4A82-A9FD-FD0BF1FBC160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct & Class diff", "Struct & Class diff\Struct & Class diff.csproj", "{46F17E05-71F3-4667-A344-A10EF8447319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct & Class diff", "Struct & Class diff\Struct & Class diff.csproj", "{46F17E05-71F3-4667-A344-A10EF8447319}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Modifier Static", "Class Modifier Static\Class Modifier Static.csproj", "{2AE44755-593B-4F5E-8884-EBBEC3C6811D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly List", "Assembly List\Assembly List.csproj", "{F5B7F8B9-3D48-4459-B160-5417131E5EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly List Operations", "Assembly List Operations\Assembly List Operations.csproj", "{EF2D60AB-0EF6-453B-AD82-03ED44B8F135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{357CA015-7045-4A87-9284-80E3832B403B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,10 +259,6 @@ Global
 		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0071C3DC-6225-45D5-A3F9-6148BEAD8890}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E2E8AF8-A64C-436C-A621-8AB2DFE447D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{386AEAA8-0810-41AA-8EB2-251BC83F8BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{386AEAA8-0810-41AA-8EB2-251BC83F8BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386AEAA8-0810-41AA-8EB2-251BC83F8BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -273,6 +275,22 @@ Global
 		{46F17E05-71F3-4667-A344-A10EF8447319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F17E05-71F3-4667-A344-A10EF8447319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F17E05-71F3-4667-A344-A10EF8447319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE44755-593B-4F5E-8884-EBBEC3C6811D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE44755-593B-4F5E-8884-EBBEC3C6811D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE44755-593B-4F5E-8884-EBBEC3C6811D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE44755-593B-4F5E-8884-EBBEC3C6811D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B7F8B9-3D48-4459-B160-5417131E5EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B7F8B9-3D48-4459-B160-5417131E5EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B7F8B9-3D48-4459-B160-5417131E5EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B7F8B9-3D48-4459-B160-5417131E5EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2D60AB-0EF6-453B-AD82-03ED44B8F135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2D60AB-0EF6-453B-AD82-03ED44B8F135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2D60AB-0EF6-453B-AD82-03ED44B8F135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2D60AB-0EF6-453B-AD82-03ED44B8F135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357CA015-7045-4A87-9284-80E3832B403B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357CA015-7045-4A87-9284-80E3832B403B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357CA015-7045-4A87-9284-80E3832B403B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357CA015-7045-4A87-9284-80E3832B403B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

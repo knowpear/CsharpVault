@@ -1,4 +1,4 @@
-﻿namespace Modifier_Static
+﻿namespace Class_Modifier_Static
 {
     internal class Test //static class Test 靜態類裡面只能包含靜態成員, 所以下面的hp不能存在
     {
