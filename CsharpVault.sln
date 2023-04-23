@@ -99,6 +99,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic", "Generic\Generic.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Operator Overloading ToString", "Class Operator Overloading ToString\Class Operator Overloading ToString.csproj", "{644C3F01-133D-4DBC-B761-363BA242A058}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Method", "Generic Method\Generic Method.csproj", "{CE7F8E6F-0720-4EB9-8695-59736D8DE7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly DIY MyList", "Assembly DIY MyList\Assembly DIY MyList.csproj", "{D1E3E08C-2E76-4765-8FCC-C25AEE833DA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +301,14 @@ Global
 		{644C3F01-133D-4DBC-B761-363BA242A058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{644C3F01-133D-4DBC-B761-363BA242A058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{644C3F01-133D-4DBC-B761-363BA242A058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7F8E6F-0720-4EB9-8695-59736D8DE7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7F8E6F-0720-4EB9-8695-59736D8DE7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7F8E6F-0720-4EB9-8695-59736D8DE7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7F8E6F-0720-4EB9-8695-59736D8DE7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E3E08C-2E76-4765-8FCC-C25AEE833DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E3E08C-2E76-4765-8FCC-C25AEE833DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E3E08C-2E76-4765-8FCC-C25AEE833DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E3E08C-2E76-4765-8FCC-C25AEE833DA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

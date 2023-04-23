@@ -1,5 +1,6 @@
 ﻿namespace Generic
 {
+    //#### 類的泛型演示
     internal class ClassA<T> //Type int string double
     {// MyClass
         private T a;

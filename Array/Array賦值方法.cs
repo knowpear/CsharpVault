@@ -1,5 +1,4 @@
 ﻿//Array賦值方法1 先聲明, 再賦值
-using System.Xml.Linq;
 
 char[] letters;
 letters = new char[3]; //不賦值則系統用默認值, 此為空 //不賦值情況下, 這裡的數量3不可省略
