@@ -13,7 +13,7 @@ namespace Class_Operator_Overloading
             this.name = name;
             this.id = id;
         }
-        // == !=
+        //重載==
         public static bool operator ==(Student s1, Student s2)
         {
             if (s1.age == s2.age && s1.name == s2.name && s1.id == s2.id)
@@ -22,6 +22,7 @@ namespace Class_Operator_Overloading
             }
             return false;
         }
+        //重載!=
         public static bool operator !=(Student s1, Student s2)
         {
             bool result = s1 == s2;
