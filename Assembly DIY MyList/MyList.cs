@@ -4,7 +4,9 @@ namespace Assembly_DIY_MyList
     internal class MyList<T>
     {
         //#### 創建了一個長度為0的數組, 即空數組
-        private T[] data = new T[0]; //we.?它和Main函數中的新建的集合體MyList<int> list = new MyList<int>();是如何聯繫起來的呢?
+        private T[] data = new T[0];
+        //we.?它和Main函數中的新建的集合體MyList<int> list = new MyList<int>();是如何聯繫起來的呢? 靠泛型中的T?
+            //[CsharpVSchatGPTanswer](https://we-1307938470.cos.ap-beijing.myqcloud.com/pictures/CsharpVSchatGPTanswer.png)
         //假如不new, 相當於空的, 後面會出現引用錯誤.
         //不賦值相當於private T[] data; 或private T[] data = null; 會出現System. NullReferenceException
         //所有的引用類型都是需要通過new去賦值的
@@ -20,7 +22,7 @@ namespace Assembly_DIY_MyList
         //#### 定義元素/數據個數
         private int count = 0;
 
-        //#### 公共的Count屬性, 用於讓外界訪問我們的列表裡有多少個元素
+        //#### 公共化Count屬性, 用於讓外界訪問我們的列表裡有多少個元素
         public int Count
         {
             get
@@ -56,6 +58,24 @@ namespace Assembly_DIY_MyList
             //count就是元素的個數, count的個數就跟我們要添加到數組中的索引的位置是相等的
             data[count] = item; //所以添加數據就添加到和count相同的索引位置即可
             count++; //這裡的count不是Default
+        }
+        //#### 索引器
+        public T this[int index]
+        {
+            get
+            {
+                if (index < 0 || index > count - 1)
+                {
+                    throw new ArgumentOutOfRangeException($"索引index超出範圍了");
+                    //拋是為了指向原因, 在這裡不能處理
+                    //使用情況: 當我們寫的類給別人使用時
+                }
+                return data[index];
+            }
+            set
+            {
+                data[index] = value;
+            }
         }
     }
 }

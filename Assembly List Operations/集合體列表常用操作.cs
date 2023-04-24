@@ -13,7 +13,6 @@ namespace Assembly_List_Operations
                 Console.WriteLine();
             }
         }
-
         static void Main(string[] args)
         {
             //#### 增, 刪, 改, 查, 排, 打

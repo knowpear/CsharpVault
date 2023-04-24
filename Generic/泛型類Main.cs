@@ -1,4 +1,9 @@
-﻿namespace Generic
+﻿/*#### we.泛型類和類的泛型方法的區別
+泛型類是在類中定義好全局泛型參數. 需要一個初始化賦值函數
+類的泛型方法是在方法中傳遞泛型參數
+*/
+
+namespace Generic
 {
     internal class 泛型類Main
     {
