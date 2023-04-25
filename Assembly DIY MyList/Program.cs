@@ -13,6 +13,7 @@
             list.Add(3);
             list.Add(4);
             list.Add(5);
+            list.Add(3);
 
             //#### 調用Capacity屬性
             Console.WriteLine(list.Capacity); //Output: 8 翻倍了
@@ -28,9 +29,31 @@
             {
                 Console.Write(list[i] + " ");
             }
-            
+            Console.WriteLine();
+
             //#### 索引超出異常Throw測試
             //Console.WriteLine(list[99]);
+
+            //#### Insert方法
+            list.Insert(1, 88); //we.笨方法調用
+
+            list.Print();
+
+            //#### RemoveAt方法
+            list.RemoveAT(1);
+
+            list.Print();
+
+            //#### 調用正序, 倒序查找方法
+            Console.WriteLine();
+            Console.WriteLine(list.IndexOf(3));
+            Console.WriteLine(list.LastIndexOf(3));
+
+            //#### 調用Sort方法
+            list.Sort();
+            list.Print();
+
+
         }
     }
 }

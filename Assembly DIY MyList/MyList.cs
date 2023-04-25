@@ -1,4 +1,7 @@
 ﻿
+using System;
+using System.Collections.Generic;
+
 namespace Assembly_DIY_MyList
 {
     internal class MyList<T>
@@ -6,13 +9,14 @@ namespace Assembly_DIY_MyList
         //#### 創建了一個長度為0的數組, 即空數組
         private T[] data = new T[0];
         //we.?它和Main函數中的新建的集合體MyList<int> list = new MyList<int>();是如何聯繫起來的呢? 靠泛型中的T?
+            //we.list就是這個泛型集合體類的一個化身, 通過調用方法使用其中功能
             //[CsharpVSchatGPTanswer](https://we-1307938470.cos.ap-beijing.myqcloud.com/pictures/CsharpVSchatGPTanswer.png)
         //假如不new, 相當於空的, 後面會出現引用錯誤.
         //不賦值相當於private T[] data; 或private T[] data = null; 會出現System. NullReferenceException
         //所有的引用類型都是需要通過new去賦值的
 
         //#### 創建一個Capacity屬性
-        public int Capacity 
+        public int Capacity
         {
             get
             { 
@@ -76,6 +80,107 @@ namespace Assembly_DIY_MyList
             {
                 data[index] = value;
             }
+        }
+        //#### DIY插入數據方法
+        public void Insert(int index, T item)
+        {
+            if (index < 0 || index > count -1) //count-1是最大下標
+            {
+                throw new ArgumentOutOfRangeException($"索引index超出範圍了");
+            }
+            for (int i = count - 1; i > index; i--) //倒序, index前面的數據就不用動啦, 從最後一個元素開始到index後一個元素
+            {
+                data[i + 1] = data[i]; //每個元素賦值/替換給後一元素
+            }
+            data[index] = item; //傳入的元素給到index位置
+            count++; //每插入一次, count自增一
+        }
+
+        //we.笨方法寫法的, 基本實現了插入功能, 但和索引器未匹配
+        //public void Insert(int index, T item)
+        //{
+        //    T[] temp = new T[data.Length+1];
+        //    //we.先寫入插入數據
+        //    temp[index] = item;
+        //    //we.把插入數據後面的導入
+        //    for (int i = index;  i < data.Length; i++) 
+        //    {
+        //        temp[i+1] = data[i];
+        //    }
+        //    //把插入數據前面的導入
+        //    for (int i =0; i < index; i++)
+        //    {
+        //        temp[i] = data[i];
+        //    }
+        //    data = new T[data.Length + 1];
+        //    data = temp;
+
+        //    foreach (var i in data)
+        //    {
+        //        Console.Write(i + " ");
+        //    }
+        //    Console.Write(" |"); //Output: 66 88 2 3 4 5 0 0 0
+        //}
+
+        //#### we.打印集合體方法
+        public void Print()
+        {
+            
+            for (int i = 0; i < count; i++)
+            {
+                Console.Write(data[i] + " ");
+            }
+            Console.Write("|");
+        }
+        //#### DIY移除數據方法
+        public void RemoveAT(int index)
+        {
+            if (index < 0 || index > count - 1)
+            {
+                throw new ArgumentOutOfRangeException($"索引index超出範圍了");
+            }
+            for (int i = index + 1; i < count; i++) //正序, index+1是要移除目標數據的後一個數據, 從它開始到最後一個元素
+                                                    //規律總結: 無論插入還是移除, 都是舊數據向新數據方向移動
+            {
+                data[i-1] = data[i]; //每個元素賦值/替換給前一元素
+            }
+            count--; //每刪除一個自減一
+        }
+
+        //#### 正序查找
+        public int IndexOf(T item)
+        {
+            int index = -1;
+
+            for (int i = 0; i < count; i++)
+            {// ToString Equals
+                if (item.Equals(data[i]))
+                {
+                    index = i; break;
+                }
+            }
+            return index;
+        }
+
+        //#### 倒序查找
+        public int LastIndexOf(T item)
+        {
+            int index = -1;
+
+            for (int i = count - 1; i >= 0; i--)
+            {// ToString Equals
+                if (item.Equals(data[i]))
+                {
+                    index = i; break;
+                }
+            }
+            return index;
+        }
+
+        //#### 排序
+        public void Sort()
+        {
+            Array.Sort(data, 0, count); //void Array. Sort(Array array, int index, int length)
         }
     }
 }
