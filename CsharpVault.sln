@@ -105,7 +105,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly DIY MyList", "Asse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class with array2", "Class with array2\Class with array2.csproj", "{82FF8DA1-37A3-4EF8-BB81-F0B667370AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals", "Equals\Equals.csproj", "{B630A6B1-DD19-48D1-9AE0-44A32A38DE81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equals", "Equals\Equals.csproj", "{B630A6B1-DD19-48D1-9AE0-44A32A38DE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Constructor", "Class Constructor\Class Constructor.csproj", "{0C9618F8-5B14-44FC-9F48-26B529B6C296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{B630A6B1-DD19-48D1-9AE0-44A32A38DE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B630A6B1-DD19-48D1-9AE0-44A32A38DE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B630A6B1-DD19-48D1-9AE0-44A32A38DE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
