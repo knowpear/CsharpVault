@@ -12,7 +12,6 @@
             int input2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("輸入的數字是: " + input2);
 
-
             //#### 獲取並打印用戶按鍵
             ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
             keyInfo = Console.ReadKey();

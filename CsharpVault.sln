@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equals", "Equals\Equals.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Constructor", "Class Constructor\Class Constructor.csproj", "{0C9618F8-5B14-44FC-9F48-26B529B6C296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKeyInfo Enum", "ConsoleKeyInfo Enum\ConsoleKeyInfo Enum.csproj", "{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKeyInfo Enum", "ConsoleKeyInfo Enum\ConsoleKeyInfo Enum.csproj", "{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Int32ParseTryParse", "Int32ParseTryParse\Int32ParseTryParse.csproj", "{77186A44-6655-44F3-BCC0-ED06BD46CEE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77186A44-6655-44F3-BCC0-ED06BD46CEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77186A44-6655-44F3-BCC0-ED06BD46CEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77186A44-6655-44F3-BCC0-ED06BD46CEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77186A44-6655-44F3-BCC0-ED06BD46CEE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
