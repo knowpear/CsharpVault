@@ -4,8 +4,22 @@ namespace ASCII
 {
     internal class ASCII碼
     {
+        //#### 判斷用戶按鍵類
+        public static void Readkey()
+        {
+            Console.WriteLine("按一個鍵");
+            ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+            keyInfo = Console.ReadKey();
+            Console.WriteLine();
+            //Console.WriteLine(keyInfo.KeyChar);
+        }
+        
         static void Main(string[] args)
         {
+            //#### 調用ReadKey類
+            //Readkey readkey = new Readkey();
+            Readkey();
+
             //#### 字符變ASCII碼 方法即char強塞給int 或 char強制轉換為int
             //weThinking.ASCII就是int, 字符就是char, 就是它們的相互轉換
             char a = 'c';
@@ -26,7 +40,17 @@ namespace ASCII
 
             //#### 判断是否為字母或數字幾
             Console.WriteLine("#### 判断是否為字母或數字幾");
-            char input = Convert.ToChar(Console.ReadLine()); //轉換string為char
+            //獲取用戶輸入
+            ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+            keyInfo = Console.ReadKey();
+            //或者連寫成ConsoleKeyInfo keyInfo = Console.ReadKey();
+            char input = keyInfo.KeyChar;
+                //Console.WriteLine("keyInfo的值: " + keyInfo);
+                //Console.WriteLine("keyInfo.Key的值: " + keyInfo.Key);
+                //Console.WriteLine("keyInfo.KeyChar的值: " + keyInfo.KeyChar);
+
+            //Alternative standard writing//初學者不標準的寫法, 轉換string為char
+            //char input = Convert.ToChar(Console.ReadLine()); 
 
             if (input >= 'a' && input <= 'z' || input >= 'A' && input <= 'Z')
             //if (input >= 97 && input <= 122 || input >= 65 && input <= 90) 

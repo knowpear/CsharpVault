@@ -49,8 +49,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum", "enum\enum.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegate instance2", "delegate instance2\delegate instance2.csproj", "{8FDABDD8-EA4F-4F43-A374-02684D5307DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console Method", "Console Method\Console Method.csproj", "{2E3F9F30-190E-46B1-8BFF-CCCB4DA3E823}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASCII", "ASCII\ASCII.csproj", "{E620082E-67EA-4152-9733-08E75EDB8993}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "string character type judgment", "string character type judgment\string character type judgment.csproj", "{AFE0F013-0DF7-45AF-ABA2-68223FF66AAE}"
@@ -107,7 +105,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class with array2", "Class 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equals", "Equals\Equals.csproj", "{B630A6B1-DD19-48D1-9AE0-44A32A38DE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Constructor", "Class Constructor\Class Constructor.csproj", "{0C9618F8-5B14-44FC-9F48-26B529B6C296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Constructor", "Class Constructor\Class Constructor.csproj", "{0C9618F8-5B14-44FC-9F48-26B529B6C296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKeyInfo Enum", "ConsoleKeyInfo Enum\ConsoleKeyInfo Enum.csproj", "{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,10 +207,6 @@ Global
 		{8FDABDD8-EA4F-4F43-A374-02684D5307DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FDABDD8-EA4F-4F43-A374-02684D5307DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FDABDD8-EA4F-4F43-A374-02684D5307DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E3F9F30-190E-46B1-8BFF-CCCB4DA3E823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E3F9F30-190E-46B1-8BFF-CCCB4DA3E823}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E3F9F30-190E-46B1-8BFF-CCCB4DA3E823}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E3F9F30-190E-46B1-8BFF-CCCB4DA3E823}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E620082E-67EA-4152-9733-08E75EDB8993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E620082E-67EA-4152-9733-08E75EDB8993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E620082E-67EA-4152-9733-08E75EDB8993}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -327,6 +323,10 @@ Global
 		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9618F8-5B14-44FC-9F48-26B529B6C296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B898B4A7-97E9-423F-B69E-FFF9F53AAADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
