@@ -9,6 +9,7 @@ namespace Assembly_List
             //1.初始化列表
             List<string> list2 = new List<string>();
             List<int> list = new List<int>() { 0, 3, 5, 6}; //也可以給初始數據(減少性能損耗), 不限數量, 可增可減
+
             //2.添加數據
             list.Add(8);
             list.Add(9);
