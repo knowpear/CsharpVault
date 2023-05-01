@@ -7,6 +7,7 @@
 - 構造函數可以有多個
 	- 調用時會選擇參數匹配的構造函數
 - 構造函數可以重載
+- The constructor has the same name as the class and does not have a return type, not even void. It can have parameters or no parameters.
 
 ```C#
 public class MyClass

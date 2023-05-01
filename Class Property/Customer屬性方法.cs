@@ -18,7 +18,7 @@ namespace Class_Property
         private int age;
         private string createTime;
 
-        //類屬性初始化get和set方法
+        //類屬性初始化get和set方法 //we.idea這就是初始化賦值函數的前身啊!
             //习惯上属性⼤写 字段⼩写
         public int Age //當成get方法和set方法的簡寫
         {

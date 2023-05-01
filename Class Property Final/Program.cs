@@ -18,6 +18,7 @@ namespace Class_Property_Final
             public int Num2 { private get; set; } //只寫
 
             //## 初始化函數
+                //we.idea公共初始化函數做中介, 對外連接傳參返回值, 對內與成員溝通
             //### parameter constructor
             public Student() //預留給類的簡化直接賦值的實例的
             {
@@ -50,17 +51,45 @@ namespace Class_Property_Final
             }
             public void setAge(int value)
             {
+                if (value < 0) return; //we.小於0不合法, 不設置
                 this.Age = value;
             }
             //公私合營只讀的Num的setter方法
             public void setNum(int value)
             {
-                this.Num = value;
+                if (value < 0)
+                {
+                    Num = -1 ; //we.小於0不合法, 返回-1
+                }
+                else
+                {
+                    this.Num = value; //否則傳參賦值成功
+                }
             }
             //公私合營只寫的Num2的getter方法
             public int getNum2()
             {
                 return this.Num2;
+            }
+
+            //## 函數
+            //### 無參打印函數
+            public void Print() //這裡不能加static
+            {
+                Console.WriteLine
+                    (
+                    "ID: " + ID + "\n" +
+                    "Name: " + Name + "\n" +
+                    "Age: " + Age + "\n" +
+                    "Num: " + Num + "\n" +
+                    "Num2: " + Num2
+                    );
+            }
+            //### 有參有返回值函數
+            public string comboOutput(string value)
+            {
+                string temp = ID + Name + Age + Num + Num2 + value;
+                return temp;
             }
         }
 
@@ -70,6 +99,16 @@ namespace Class_Property_Final
             //student.setAge(66);
             Console.WriteLine(student.getAge());
             Console.WriteLine(student.ID);
+
+            student.Print();
+
+            string temp = student.comboOutput("完畢");
+            Console.WriteLine(temp);
+
+            student.setAge(-9);
+            Console.WriteLine(student.getAge());
+            student.setNum(-10);
+            Console.WriteLine(student.Num);
         }
     }
 }
