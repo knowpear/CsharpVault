@@ -19,8 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable", "Variable\Variab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syntax", "Syntax\Syntax.csproj", "{E64A2424-CC7E-4854-A899-9524E9C2E5E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "string", "string\string.csproj", "{B8326A5E-408F-4988-93F5-D4DB3893C50E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while and do while", "while and do while\while and do while.csproj", "{4EB9F4D5-B096-4071-87CA-26AABF0190CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop Instance", "Loop Instance\Loop Instance.csproj", "{720B0A2B-F40F-4DDC-B29F-352FF261C492}"
@@ -109,11 +107,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Property Final", "Cla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly List Class", "Assembly List Class\Assembly List Class.csproj", "{79143AF8-487B-47DF-A947-76AA7550F6D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Array", "Class Array\Class Array.csproj", "{A22EA43E-E7B6-4417-BFB6-B4068FBC69DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Array", "Class Array\Class Array.csproj", "{A22EA43E-E7B6-4417-BFB6-B4068FBC69DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Instantiation", "Class Instantiation\Class Instantiation.csproj", "{A754101A-22FA-4E99-BDED-3BBCFA2CAC08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Instantiation", "Class Instantiation\Class Instantiation.csproj", "{A754101A-22FA-4E99-BDED-3BBCFA2CAC08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWrite", "ConsoleWrite\ConsoleWrite.csproj", "{454D777C-37B2-4D2D-9839-1343587645CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleWrite", "ConsoleWrite\ConsoleWrite.csproj", "{454D777C-37B2-4D2D-9839-1343587645CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,10 +151,6 @@ Global
 		{E64A2424-CC7E-4854-A899-9524E9C2E5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E64A2424-CC7E-4854-A899-9524E9C2E5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E64A2424-CC7E-4854-A899-9524E9C2E5E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8326A5E-408F-4988-93F5-D4DB3893C50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8326A5E-408F-4988-93F5-D4DB3893C50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8326A5E-408F-4988-93F5-D4DB3893C50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8326A5E-408F-4988-93F5-D4DB3893C50E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4EB9F4D5-B096-4071-87CA-26AABF0190CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4EB9F4D5-B096-4071-87CA-26AABF0190CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EB9F4D5-B096-4071-87CA-26AABF0190CA}.Release|Any CPU.ActiveCfg = Release|Any CPU

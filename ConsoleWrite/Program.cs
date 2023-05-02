@@ -7,6 +7,11 @@
             multiple_lines_output mlo = new multiple_lines_output();
             mlo.Output1();
             mlo.Output2();
+
+            stringFormat sf = new stringFormat();
+            sf.stringFormatPrint();
+
+
         }
     }
 }
